@@ -1,0 +1,16 @@
+{
+    "name": "@yuo/postcss-px2vw",
+    "version": "1.0.5",
+    "author": "Perfumere<1061393710@qq.com>",
+    "description": "support postcss@v8.x, px2vw",
+    "main": "index.js",
+    "types": "type.d.ts",
+    "dependencies": {
+        "postcss": "^8.0.0"
+    },
+    "keywords": [
+        "px2vw",
+        "plugin"
+    ],
+    "license": "MIT"
+}
