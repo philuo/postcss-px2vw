@@ -91,9 +91,11 @@ import px2vw from '@yuo/postcss-px2vw';
 export default defineConfig(() => {
   css: {
     postcss: {
-      px2vw({
-        // 配置参数
-      })
+      plugins: [
+        px2vw({
+          // 配置参数
+        })
+      ]
     }
   }
 });
